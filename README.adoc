@@ -1,4 +1,7 @@
 = Matrice des versions Spring / Hibernate / Java / Tomcat
+:encoding: utf-8
+:toc: auto
+:toclevels: 3
 
 == Matrice
 
@@ -67,6 +70,8 @@
 - https://projects.spring.io/spring-framework/
 - https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/overview.html#overview[Spring Framework Overview]
 
+=== Matrice compatibilité Spring + Java
+
 |===
 | Spring FWK | Java
 
@@ -79,6 +84,8 @@
 | 3.x
 | 6+
 |===
+
+=== Matrice compatibilité Spring + Hibernate
 
 |===
 | Spring FWK | Hibernate
