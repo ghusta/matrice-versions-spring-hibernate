@@ -3,7 +3,7 @@
 :toc: auto
 :toclevels: 3
 
-== Matrice
+== Matrice globale
 
 |===
 | Spring Framework | Hibernate | Java | Tomcat
