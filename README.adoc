@@ -28,7 +28,7 @@
 
 == Matrice compatibilité Hibernate
 
-http://hibernate.org/orm/releases/[Releases Hibernate]
+- http://hibernate.org/orm/releases/[Releases Hibernate]
 
 |===
 | Hibernate ORM | Java | JPA
@@ -52,4 +52,30 @@ http://hibernate.org/orm/releases/[Releases Hibernate]
 | 4.2
 | 6+
 | 2.0
+
+| 3.5
+| -
+| 2.0
+
+| 3.2
+| -
+| 1.0
+|===
+
+== Matrice compatibilité Spring
+
+- https://projects.spring.io/spring-framework/
+- https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/overview.html#overview[Spring Framework Overview]
+
+|===
+| Spring FWK | Java
+
+| 5.x
+| 8+
+
+| 4.x
+| 6+
+
+| 3.x
+| 6+
 |===
