@@ -10,8 +10,46 @@
 | 1.6+
 | 6+
 
+| 3.2
+| 4
+| 1.6+
+| 6+
+
+| 4.3
+| 5.0
+| 1.6+
+| 6+
+
 | 5.0
 | 5.2
 | 8+
 | 8.5+
+|===
+
+== Matrice compatibilité Hibernate
+
+http://hibernate.org/orm/releases/[Releases Hibernate]
+
+|===
+| Hibernate ORM | Java | JPA
+
+| 5.2
+| 8+
+| 2.1
+
+| 5.1
+| 6+
+| 2.1
+
+| 5.0
+| 6+
+| 2.1
+
+| 4.3
+| 6+
+| 2.1
+
+| 4.2
+| 6+
+| 2.0
 |===
