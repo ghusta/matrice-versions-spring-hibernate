@@ -109,3 +109,5 @@
 Voir notamment la classe `LocalSessionFactoryBean` dans les packages `org.springframework.orm.hibernate3`, `org.springframework.orm.hibernate4`, `org.springframework.orm.hibernate5`.
 
 Pour JPA voir la classe `LocalContainerEntityManagerFactoryBean` dans le package `org.springframework.orm.jpa` par exemple.
+
+La classe `org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean` est remplacée par `org.springframework.orm.hibernate4.LocalSessionFactoryBean`.
