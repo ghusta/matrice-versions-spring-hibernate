@@ -19,7 +19,7 @@
 | 6+
 
 | 3.2
-| [3.x-4.0]
+| [3.x-4.2]
 | 1.6+
 | 6+
 
@@ -91,17 +91,19 @@
 | Spring FWK | Hibernate
 
 | 5.0.x
-| 4.3+ (JPA) ou 5.0+ (Hibernate). Voir https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/data-access.html#orm-hibernate[note]
+| 4.3+ (JPA) ou 5.0+ (Hibernate). # <1>
 
 | 4.3.x
 | [3-5]
 
 | 3.2.x
-| [3-4.0.x]
+| [3-4.2.x]. # <2>
 
 | 3.0.x
 | [3.2-3.6]
 |===
+<1> Note : Voir https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/data-access.html#orm-hibernate
+<2> Note : Hibernate 4.2 d'après le POM de _spring-orm_ 3.2.18
 
 Voir notamment la classe `LocalSessionFactoryBean` dans les packages `org.springframework.orm.hibernate3`, `org.springframework.orm.hibernate4`, `org.springframework.orm.hibernate5`.
 
