@@ -37,6 +37,10 @@
 |===
 | Hibernate ORM | Java | JPA
 
+| 5.3 (beta)
+| 8+
+| 2.2
+
 | 5.2
 | 8+
 | 2.1
