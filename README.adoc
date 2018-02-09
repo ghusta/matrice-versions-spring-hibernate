@@ -79,6 +79,8 @@
 - https://projects.spring.io/spring-framework/
 - https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/overview.html#overview[Spring Framework Overview]
 - https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#upgrades[Spring Upgrades]
+- https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/htmlsingle/#spring-whats-new
+- https://docs.spring.io/spring-framework/docs/2.5.x/reference/new-in-2.html#new-in-2-migrating-jdk
 
 === Matrice compatibilité Spring + Java
 
@@ -92,7 +94,10 @@
 | 6+
 
 | 3.x
-| 6+
+| 5+
+
+| 2.5
+| 1.4+
 |===
 
 === Matrice compatibilité Spring + Hibernate
