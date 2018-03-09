@@ -94,11 +94,13 @@
 | 6+
 
 | 3.x
-| 5+
+| [5-7]. _Note 1_
 
 | 2.5
 | 1.4+
 |===
+
+- _Note 1_ : Support Java 8 limité sur Spring 3.x, restreint au format de bytecode 1.7 (https://spring.io/blog/2013/05/21/spring-framework-4-0-m1-3-2-3-available/)
 
 === Matrice compatibilité Spring + Hibernate
 
