@@ -31,7 +31,7 @@
 
 == Matrice compatibilité Hibernate
 
-- http://hibernate.org/orm/releases/[Releases Hibernate]
+- http://hibernate.org/orm/releases/#compatibility-matrix[Hibernate compatibility matrix]
 - https://github.com/hibernate/hibernate-orm/wiki/Migration-Guides[Migration Guides]
 
 |===
@@ -46,7 +46,7 @@
 | 2.1
 
 | 5.1
-| 6+
+| 6+ through 5.1.3; 7+ through 5.1.16; 8+ for 5.1.17
 | 2.1
 
 | 5.0
