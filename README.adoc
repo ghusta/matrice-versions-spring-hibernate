@@ -15,7 +15,7 @@
 | 8.5+
 
 | 4.3
-| [3-5]
+| [3-5.2]
 | 1.6+
 | 6+
 
@@ -116,11 +116,17 @@
 |===
 | Spring FWK | Hibernate
 
+| 5.2.x
+| Support Hibernate 6.0. _Note 6_
+
+| 5.1.x
+| JPA 2.1+ ou Hibernate [5.0-5.3]. _Note 5_
+
 | 5.0.x
-| 4.3+ (JPA) ou 5.0+ (Hibernate). _Note 1_
+| JPA 2.1+ ou Hibernate [5.0-5.2]. _Note 1_
 
 | 4.3.x
-| [3.6-5.2]
+| [3.6-5.2] _Note 4_
 
 | 4.0.x
 | [3.6-4]. _Note 2_
@@ -135,6 +141,9 @@
 - _Note 1_ : https://docs.spring.io/spring/docs/5.0.2.RELEASE/spring-framework-reference/data-access.html#orm-hibernate
 - _Note 2_ : Voir https://docs.spring.io/spring/docs/4.0.0.RELEASE/spring-framework-reference/html/orm.html#orm-hibernate
 - _Note 3_ : Hibernate 4.2 d'après le POM de _spring-orm_ 3.2.18
+- _Note 4_ : https://github.com/spring-projects/spring-framework/issues/18899[Support for Hibernate ORM 5.2]
+- _Note 5_ : https://github.com/spring-projects/spring-framework/issues/20850[Support for Hibernate ORM 5.3]
+- _Note 6_ : https://github.com/spring-projects/spring-framework/issues/22128[Support for Hibernate ORM 6.0]
 
 Voir notamment la classe `LocalSessionFactoryBean` dans les packages `org.springframework.orm.hibernate3`, `org.springframework.orm.hibernate4`, `org.springframework.orm.hibernate5`.
 
