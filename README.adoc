@@ -2,6 +2,7 @@
 :encoding: utf-8
 :toc: auto
 :toclevels: 3
+:icons: font
 
 == Matrice globale
 
@@ -119,7 +120,7 @@
 | 4.3+ (JPA) ou 5.0+ (Hibernate). _Note 1_
 
 | 4.3.x
-| [3.6-5]
+| [3.6-5.2]
 
 | 4.0.x
 | [3.6-4]. _Note 2_
