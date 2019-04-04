@@ -32,26 +32,23 @@
 
 == Matrice compatibilité Hibernate
 
-- http://hibernate.org/orm/releases/#compatibility-matrix[Hibernate compatibility matrix]
-- https://github.com/hibernate/hibernate-orm/wiki/Migration-Guides[Migration Guides]
-
 |===
 | Hibernate ORM | Java | JPA
 
 | 6.0
-| 8+
+| 8 ou 11
 | 2.2
 
 | 5.4
-| 8 -> 11
+| 8 ou 11
 | 2.2
 
 | 5.3
-| 8+
+| 8 ou 11
 | 2.2
 
 | 5.2
-| 8+
+| 8
 | 2.1
 
 | 5.1
@@ -82,6 +79,11 @@
 | 1.4+
 | 1.0
 |===
+
+Références :
+
+- http://hibernate.org/orm/releases/#compatibility-matrix[Hibernate compatibility matrix]
+- https://github.com/hibernate/hibernate-orm/wiki/Migration-Guides[Migration Guides]
 
 == Matrice compatibilité Spring
 
