@@ -86,6 +86,7 @@ Références :
 
 - http://hibernate.org/orm/releases/#compatibility-matrix[Hibernate compatibility matrix]
 - https://github.com/hibernate/hibernate-orm/wiki/Migration-Guides[Migration Guides]
+- http://in.relation.to/2018/09/13/using-hibernate-orm-with-jdk11/[Using Hibernate ORM with JDK 11] : Hibernate ORM 5.3+
 
 == Matrice compatibilité Spring
 
