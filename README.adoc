@@ -101,8 +101,14 @@ Références :
 |===
 | Spring FWK | Java
 
-| 5.x
-| 8+
+| 5.1.x
+| [8-12]
+
+| 5.0.x
+| [8-10]. _Note 2_
+
+| 4.3.x
+| [6-8]
 
 | 4.x
 | 6+
@@ -115,6 +121,7 @@ Références :
 |===
 
 - _Note 1_ : Support Java 8 limité sur Spring 3.x, restreint au format de bytecode 1.7 (https://spring.io/blog/2013/05/21/spring-framework-4-0-m1-3-2-3-available/)
+- _Note 2_ : Reprise versions JDK supportées du https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range[wiki Spring]
 
 === Matrice compatibilité Spring + Hibernate
 
