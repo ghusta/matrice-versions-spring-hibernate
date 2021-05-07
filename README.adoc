@@ -101,6 +101,9 @@ Références :
 |===
 | Spring FWK | Java
 
+| 5.2.x
+| [8-15]
+
 | 5.1.x
 | [8-12]
 
