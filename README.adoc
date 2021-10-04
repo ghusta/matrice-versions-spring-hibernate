@@ -9,6 +9,11 @@
 |===
 | Spring Framework | Hibernate | Java | Tomcat
 
+| 6.0
+| 6.0
+| 17
+| 10
+
 | 5.0
 | 5.0+
 | 8+
@@ -124,6 +129,9 @@ Références :
 |===
 | Spring FWK | Java
 
+| 6.x
+| 17+ _Note 3_
+
 | 5.3.x
 | [8-17]
 
@@ -151,14 +159,15 @@ Références :
 
 - _Note 1_ : Support Java 8 limité sur Spring 3.x, restreint au format de bytecode 1.7 (https://spring.io/blog/2013/05/21/spring-framework-4-0-m1-3-2-3-available/)
 - _Note 2_ : Reprise versions JDK supportées du https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range[wiki Spring]
+- _Note 3_ : https://springone.io/2021/sessions/from-spring-framework-5-3-to-6-0[From Spring Framework 5.3 to 6.0] (SpringOne 2021)
 
 === Matrice compatibilité Spring + Hibernate
 
 |===
 | Spring FWK | Hibernate
 
-| 5.2.x
-| Support Hibernate 6.0. _Note 6_
+| 6.x
+| Support Hibernate 6.0. _Note 7_
 
 | 5.1.x
 | JPA 2.1+ ou Hibernate [5.0-5.3]. _Note 5_
@@ -184,7 +193,8 @@ Références :
 - _Note 3_ : Hibernate 4.2 d'après le POM de _spring-orm_ 3.2.18
 - _Note 4_ : https://github.com/spring-projects/spring-framework/issues/18899[Support for Hibernate ORM 5.2]
 - _Note 5_ : https://github.com/spring-projects/spring-framework/issues/20850[Support for Hibernate ORM 5.3]
-- _Note 6_ : https://github.com/spring-projects/spring-framework/issues/22128[Support for Hibernate ORM 6.0]
+- _Note 6_ : https://github.com/spring-projects/spring-framework/issues/22128[Support for Hibernate ORM 6.0] (postponed)
+- _Note 7_ : https://springone.io/2021/sessions/from-spring-framework-5-3-to-6-0[From Spring Framework 5.3 to 6.0] - new baseline contains Jakarta EE 9 / Hibernate ORM 6
 
 Voir notamment la classe `LocalSessionFactoryBean` dans les packages `org.springframework.orm.hibernate3`, `org.springframework.orm.hibernate4`, `org.springframework.orm.hibernate5`.
 
