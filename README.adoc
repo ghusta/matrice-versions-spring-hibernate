@@ -109,6 +109,7 @@ Références :
 - https://github.com/hibernate/hibernate-orm/wiki/Migration-Guides[Migration Guides]
 - http://in.relation.to/2018/09/13/using-hibernate-orm-with-jdk11/[Using Hibernate ORM with JDK 11] : Hibernate ORM 5.3+
 - https://in.relation.to/2021/09/14/ready-for-jdk17/[Hibernate: all systems go for Java 17]
+- https://jakarta.ee/specifications/persistence/[Jakarta Persistence]
 
 == Matrice compatibilité Spring
 
