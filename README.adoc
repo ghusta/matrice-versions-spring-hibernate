@@ -194,15 +194,18 @@ Références :
 | [3.2-3.6]
 |===
 
-- _Note 1_ : https://docs.spring.io/spring/docs/5.0.2.RELEASE/spring-framework-reference/data-access.html#orm-hibernate
-- _Note 2_ : Voir https://docs.spring.io/spring/docs/4.0.0.RELEASE/spring-framework-reference/html/orm.html#orm-hibernate
-- _Note 3_ : Hibernate 4.2 d'après le POM de _spring-orm_ 3.2.18
-- _Note 4_ : https://github.com/spring-projects/spring-framework/issues/18899[Support for Hibernate ORM 5.2]
-- _Note 5_ : https://github.com/spring-projects/spring-framework/issues/20850[Support for Hibernate ORM 5.3]
-- _Note 6_ : https://github.com/spring-projects/spring-framework/issues/22128[Support for Hibernate ORM 6.0] (postponed)
-- _Note 7_ : https://springone.io/2021/sessions/from-spring-framework-5-3-to-6-0[From Spring Framework 5.3 to 6.0] - new baseline contains Jakarta EE 9 / Hibernate ORM 6
-- _Note 8_ : Javadoc dans https://github.com/spring-projects/spring-framework/blob/5.2.x/spring-orm/src/main/java/org/springframework/orm/hibernate5/LocalSessionFactoryBean.java
-- _Note 9_ : Javadoc dans https://github.com/spring-projects/spring-framework/commit/ba65cef52bbb28e8286faf6d36b5a7ed2b253fa5#diff-236ca7afd9b7f26eacc5c5119d5c0e02b567da3d9d0ea2981c959f656b03f485 et issue https://github.com/spring-projects/spring-framework/issues/25533
+* _Note 1_ : https://docs.spring.io/spring/docs/5.0.2.RELEASE/spring-framework-reference/data-access.html#orm-hibernate
+* _Note 2_ : Voir https://docs.spring.io/spring/docs/4.0.0.RELEASE/spring-framework-reference/html/orm.html#orm-hibernate
+* _Note 3_ : Hibernate 4.2 d'après le POM de _spring-orm_ 3.2.18
+* _Note 4_ : https://github.com/spring-projects/spring-framework/issues/18899[Support for Hibernate ORM 5.2]
+* _Note 5_ : https://github.com/spring-projects/spring-framework/issues/20850[Support for Hibernate ORM 5.3]
+* _Note 6_ : https://github.com/spring-projects/spring-framework/issues/22128[Support for Hibernate ORM 6.0] (postponed)
+* _Note 7_ : https://springone.io/2021/sessions/from-spring-framework-5-3-to-6-0[From Spring Framework 5.3 to 6.0] - new baseline contains Jakarta EE 9 / Hibernate ORM 6
+* _Note 8_ : Javadoc dans https://github.com/spring-projects/spring-framework/blob/5.2.x/spring-orm/src/main/java/org/springframework/orm/hibernate5/LocalSessionFactoryBean.java
+* _Note 9_ : 
+** Javadoc dans https://github.com/spring-projects/spring-framework/commit/ba65cef52bbb28e8286faf6d36b5a7ed2b253fa5#diff-236ca7afd9b7f26eacc5c5119d5c0e02b567da3d9d0ea2981c959f656b03f485
+** issue https://github.com/spring-projects/spring-framework/issues/25533
+** doc : https://docs.spring.io/spring-framework/docs/5.3.x/reference/html/data-access.html#orm-hibernate 
 
 Voir notamment la classe `LocalSessionFactoryBean` dans les packages `org.springframework.orm.hibernate3`, `org.springframework.orm.hibernate4`, `org.springframework.orm.hibernate5`.
 
