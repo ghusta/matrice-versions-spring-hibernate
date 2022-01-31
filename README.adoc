@@ -41,7 +41,7 @@
 | Hibernate ORM | Java | JPA | Jakarta JPA 
 
 | 6.0
-| 8, 11 ou 17
+| 11 ou 17
 | 2.2
 | 3.0
 
