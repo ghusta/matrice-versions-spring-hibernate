@@ -130,7 +130,7 @@ Références :
 | Spring FWK | Java
 
 | 6.x
-| 17+ _Note 3_
+| 17+ _Note 3_, _Note 4_, _Note 5_
 
 | 5.3.x
 | [8-17]
@@ -160,6 +160,8 @@ Références :
 - _Note 1_ : Support Java 8 limité sur Spring 3.x, restreint au format de bytecode 1.7 (https://spring.io/blog/2013/05/21/spring-framework-4-0-m1-3-2-3-available/)
 - _Note 2_ : Reprise versions JDK supportées du https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range[wiki Spring]
 - _Note 3_ : https://springone.io/2021/sessions/from-spring-framework-5-3-to-6-0[From Spring Framework 5.3 to 6.0] (SpringOne 2021)
+- _Note 4_ : https://spring.io/blog/2021/09/02/a-java-17-and-jakarta-ee-9-baseline-for-spring-framework-6[A Java 17 and Jakarta EE 9 baseline for Spring Framework 6] (2021)
+- _Note 5_ : https://spring.io/blog/2022/03/28/an-update-on-java-17-adoption[An update on Java 17+ adoption] (2022)
 
 === Matrice compatibilité Spring + Hibernate
 
