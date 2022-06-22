@@ -53,7 +53,8 @@
 | 5.5
 | 8, 11 ou 17
 | 2.2
-| 3.0
+| 3.0 +
+(Maven : https://search.maven.org/artifact/org.hibernate/hibernate-core-jakarta[hibernate-core-jakarta])
 
 | 5.4
 | 8, 11 ou 17 (avec 5.4.32+)
