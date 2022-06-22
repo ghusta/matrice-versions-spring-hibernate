@@ -62,7 +62,10 @@
 | N/A
 
 | 5.3
-| 8, 11 (5.3.3+) ou 17 (avec 5.3.22+)
+| 8 +
+11 support partiel -> 5.3.3+ (_Note 1_) +
+11 support complet -> 5.3.8+ (_Note 2_) +
+17 -> 5.3.22+
 | 2.2
 | N/A
 
@@ -108,6 +111,9 @@
 | 1.0
 | N/A
 |===
+
+- _Note 1_ : v5.3.3 contient https://github.com/raphw/byte-buddy/blob/master/release-notes.md#5-july-2018-version-1813[ByteBuddy 1.8.13]
+- _Note 2_ : v5.3.8 introduit https://github.com/raphw/byte-buddy/blob/master/release-notes.md#29-september-2018-version-190[ByteBuddy 1.9.0], avec support complet de JDK 11 (voir https://github.com/hibernate/hibernate-orm/commit/f388420ecaba2553eaee53cedc335fea6262eea1[commit pour HHH-13005])
 
 Références :
 
