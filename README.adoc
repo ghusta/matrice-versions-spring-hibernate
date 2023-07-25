@@ -38,7 +38,12 @@
 == Matrice compatibilité Hibernate
 
 |===
-| Hibernate ORM | Java | JPA | Jakarta JPA 
+| Hibernate ORM | Java | JPA | Jakarta Persistence 
+
+| 6.1
+| 11, 17 ou 18
+| N/A
+| 3.1 and 3.0
 
 | 6.0
 | 11, 17 ou 18
