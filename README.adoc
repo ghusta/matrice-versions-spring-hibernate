@@ -237,3 +237,26 @@ Voir notamment la classe `LocalSessionFactoryBean` dans les packages `org.spring
 Pour JPA voir la classe `LocalContainerEntityManagerFactoryBean` dans le package `org.springframework.orm.jpa` par exemple.
 
 La classe `org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean` est remplacée par `org.springframework.orm.hibernate4.LocalSessionFactoryBean`.
+
+== Notes diverses
+
+=== Refactoring automatisé avec _OpenRewrite_
+
+Un outil propose d'appliquer du refactoring de code ou des montées de versions des librairies de façon *automatisée*.
+Il s'agit de https://docs.openrewrite.org/[OpenRewrite].
+
+Ces refactorings sont présentés sous la forme de "recettes" (_recipes_).
+Un catalogue de _recipes_ est présenté ici : https://docs.openrewrite.org/recipes.
+
+==== _Recipes_ pour l'écosystème Spring
+
+Il existe de nombreuses _recipes_ pour l'écosystème Spring, présentées ici : https://docs.openrewrite.org/recipes/java/spring.
+
+Et en particulier pour _Spring Framework_ : https://docs.openrewrite.org/recipes/java/spring/framework.
+
+Par exemple :
+
+* link:https://docs.openrewrite.org/recipes/java/spring/framework/upgradespringframework_5_0[Migrate to Spring Framework 5.0]
+* link:https://docs.openrewrite.org/recipes/java/spring/framework/upgradespringframework_5_1[Migrate to Spring Framework 5.1]
+* link:https://docs.openrewrite.org/recipes/java/spring/framework/upgradespringframework_5_2[Migrate to Spring Framework 5.2]
+* link:https://docs.openrewrite.org/recipes/java/spring/framework/upgradespringframework_5_3[Migrate to Spring Framework 5.3]
