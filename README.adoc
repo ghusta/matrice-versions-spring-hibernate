@@ -250,8 +250,7 @@ _Notes 10, 7_
 
 Voir la classe `LocalSessionFactoryBean` dans les packages `org.springframework.orm.hibernate3`, `org.springframework.orm.hibernate4`, `org.springframework.orm.hibernate5`.
 
-.Note
-La classe `org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean` est remplacée par `org.springframework.orm.hibernate4.LocalSessionFactoryBean`.
+NOTE: La classe `org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean` est remplacée par `org.springframework.orm.hibernate4.LocalSessionFactoryBean`.
 
 ==== Persistance avec JPA
 
