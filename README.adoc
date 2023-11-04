@@ -235,11 +235,16 @@ _Notes 10, 7_
 ** doc : https://docs.spring.io/spring-framework/docs/5.3.x/reference/html/data-access.html#orm-hibernate
 * _Note 10_ : Javadoc dans https://github.com/spring-projects/spring-framework/blob/6.0.x/spring-orm/src/main/java/org/springframework/orm/hibernate5/LocalSessionFactoryBean.java
 
-Voir notamment la classe `LocalSessionFactoryBean` dans les packages `org.springframework.orm.hibernate3`, `org.springframework.orm.hibernate4`, `org.springframework.orm.hibernate5`.
+==== Persistance avec Hibernate
 
-Pour JPA voir la classe `LocalContainerEntityManagerFactoryBean` dans le package `org.springframework.orm.jpa` par exemple.
+Voir la classe `LocalSessionFactoryBean` dans les packages `org.springframework.orm.hibernate3`, `org.springframework.orm.hibernate4`, `org.springframework.orm.hibernate5`.
 
+.Note
 La classe `org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean` est remplacée par `org.springframework.orm.hibernate4.LocalSessionFactoryBean`.
+
+==== Persistance avec JPA
+
+Voir la classe `LocalContainerEntityManagerFactoryBean` dans le package `org.springframework.orm.jpa` par exemple.
 
 == Notes diverses
 
