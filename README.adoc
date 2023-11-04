@@ -225,7 +225,7 @@ Références :
 * _Note 4_ : https://github.com/spring-projects/spring-framework/issues/18899[Support for Hibernate ORM 5.2]
 * _Note 5_ : https://github.com/spring-projects/spring-framework/issues/20850[Support for Hibernate ORM 5.3]
 * _Note 6_ : https://github.com/spring-projects/spring-framework/issues/22128[Support for Hibernate ORM 6.0] (postponed)
-* _Note 7_ : https://springone.io/2021/sessions/from-spring-framework-5-3-to-6-0[From Spring Framework 5.3 to 6.0] - new baseline contains Jakarta EE 9 / Hibernate ORM 6
+* _Note 7_ : https://springone.io/2021/sessions/from-spring-framework-5-3-to-6-0[From Spring Framework 5.3 to 6.0] - new baseline contains Jakarta EE 9 / Hibernate ORM 6 -> 🎬 https://www.youtube.com/watch?v=btvh21K3yvU&t=604s
 * _Note 8_ : Javadoc dans https://github.com/spring-projects/spring-framework/blob/5.2.x/spring-orm/src/main/java/org/springframework/orm/hibernate5/LocalSessionFactoryBean.java
 * _Note 9_ : 
 ** Javadoc dans https://github.com/spring-projects/spring-framework/commit/ba65cef52bbb28e8286faf6d36b5a7ed2b253fa5#diff-236ca7afd9b7f26eacc5c5119d5c0e02b567da3d9d0ea2981c959f656b03f485
