@@ -173,7 +173,7 @@ Références :
 | [17-21] _Note 2_, _Note 3_, _Note 4_, _Note 5_
 
 | 5.3.x
-| [8-21 (as of 5.3.26)] _Note 2_
+| [8-21 (as of https://github.com/spring-projects/spring-framework/milestone/315[5.3.26])] _Note 2_
 
 | 5.2.x
 | [8-15]
