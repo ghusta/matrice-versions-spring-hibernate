@@ -163,11 +163,17 @@ Références :
 |===
 | Spring FWK | Java
 
-| 6.x
-| 17+ _Note 3_, _Note 4_, _Note 5_
+| 6.2.x
+| [17-25 (expected)] _Note 2_
+
+| 6.1.x
+| [17-23] _Note 2_
+
+| 6.0.x
+| [17-21] _Note 2_, _Note 3_, _Note 4_, _Note 5_
 
 | 5.3.x
-| [8-17]
+| [8-21 (as of 5.3.26)] _Note 2_
 
 | 5.2.x
 | [8-15]
