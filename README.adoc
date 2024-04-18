@@ -46,6 +46,11 @@
 |===
 | Hibernate ORM | Java | JPA | Jakarta Persistence
 
+| 6.5
+| 11, 17 ou 21
+| N/A
+| 3.1
+
 | 6.4
 | 11, 17 ou 21
 | N/A
