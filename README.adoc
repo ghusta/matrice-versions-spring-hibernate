@@ -46,6 +46,11 @@
 |===
 | Hibernate ORM | Java | JPA | Jakarta Persistence
 
+| 7.0
+| 17+ (_Note 4_)
+| N/A
+| 3.2
+
 | 6.5
 | 11, 17 ou 21
 | N/A
@@ -146,6 +151,7 @@
 - _Note 1_ : v5.3.3 contient https://github.com/raphw/byte-buddy/blob/master/release-notes.md#5-july-2018-version-1813[ByteBuddy 1.8.13]
 - _Note 2_ : v5.3.8 introduit https://github.com/raphw/byte-buddy/blob/master/release-notes.md#29-september-2018-version-190[ByteBuddy 1.9.0], avec support complet de JDK 11 (voir https://github.com/hibernate/hibernate-orm/commit/f388420ecaba2553eaee53cedc335fea6262eea1[commit pour HHH-13005])
 - _Note 3_ : support de JDK 17 introduit par https://github.com/raphw/byte-buddy/blob/master/release-notes.md#21-february-2021-version-11021[ByteBuddy 1.10.21] (voir https://github.com/hibernate/hibernate-orm/commit/e61eff291320f83af6552eec7cf3a7bb7ddd9f59[commit pour HHH-14463], https://github.com/hibernate/hibernate-orm/commit/4fb18e27e3cecae458f12236dbe21b6761c2d7bf[commit] pour https://hibernate.atlassian.net/browse/HHH-14771[HHH-14771])
+- _Note 4_ : https://in.relation.to/2024/04/16/orm-70alpha1/[Hibernate 7.0.0.Alpha1]
 
 Références :
 
