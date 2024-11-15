@@ -9,6 +9,11 @@
 |===
 | Spring Framework | Hibernate | Java | Tomcat
 
+| 7.0
+| 7.0
+| 17
+| 11
+
 | 6.0
 | 5.5+ +
 6.0 pour JPA
@@ -174,6 +179,9 @@ Références :
 
 |===
 | Spring FWK | Java
+
+| 7.0.x
+| [17-25]footnote:[https://spring.io/blog/2024/10/01/from-spring-framework-6-2-to-7-0[From Spring Framework 6.2 to 7.0]]
 
 | 6.2.x
 | [17-25 (expected)] _Note 2_
