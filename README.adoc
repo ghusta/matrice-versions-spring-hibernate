@@ -204,19 +204,25 @@ Références :
 | Spring FWK | Java
 
 | 7.0.x
-| [17-25]footnote:[https://spring.io/blog/2024/10/01/from-spring-framework-6-2-to-7-0[From Spring Framework 6.2 to 7.0]]
+| [17-27 (expected)]
+footnoteref:[spring-jdk-version-range,Versions JDK supportées par Spring, https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range[wiki]]
+footnote:[https://spring.io/blog/2024/10/01/from-spring-framework-6-2-to-7-0[From Spring Framework 6.2 to 7.0]]
 
 | 6.2.x
-| [17-25 (expected)] _Note 2_
+| [17-25 (expected)]
+footnoteref:[spring-jdk-version-range]
 
 | 6.1.x
-| [17-23] _Note 2_
+| [17-23]
+footnoteref:[spring-jdk-version-range]
 
 | 6.0.x
-| [17-21] _Note 2_, _Note 3_, _Note 4_, _Note 5_
+| [17-21] _Note 3_, _Note 4_, _Note 5_
+footnoteref:[spring-jdk-version-range]
 
 | 5.3.x
-| [8-21 (as of https://github.com/spring-projects/spring-framework/milestone/315[5.3.26])] _Note 2_
+| [8-21 (as of https://github.com/spring-projects/spring-framework/milestone/315[5.3.26])]
+footnoteref:[spring-jdk-version-range]
 
 | 5.2.x
 | [8-15]
@@ -225,7 +231,8 @@ Références :
 | [8-12]
 
 | 5.0.x
-| [8-10]. _Note 2_
+| [8-10]
+footnoteref:[spring-jdk-version-range]
 
 | 4.3.x
 | [6-8]
@@ -241,7 +248,6 @@ Références :
 |===
 
 - _Note 1_ : Support Java 8 limité sur Spring 3.x, restreint au format de bytecode 1.7 (https://spring.io/blog/2013/05/21/spring-framework-4-0-m1-3-2-3-available/)
-- _Note 2_ : Reprise versions JDK supportées du https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range[wiki Spring]
 - _Note 3_ : https://springone.io/2021/sessions/from-spring-framework-5-3-to-6-0[From Spring Framework 5.3 to 6.0] (SpringOne 2021)
 - _Note 4_ : https://spring.io/blog/2021/09/02/a-java-17-and-jakarta-ee-9-baseline-for-spring-framework-6[A Java 17 and Jakarta EE 9 baseline for Spring Framework 6] (2021)
 - _Note 5_ : https://spring.io/blog/2022/03/28/an-update-on-java-17-adoption[An update on Java 17+ adoption] (2022)
