@@ -49,7 +49,7 @@
 == Matrice compatibilité Hibernate
 
 |===
-| Hibernate ORM | Java | JPA | Jakarta Persistence
+| Hibernate ORM | Java | JPA | Jakarta Persistence | Jakarta Data
 
 | 7.0
 footnote:[https://in.relation.to/2024/04/16/orm-70alpha1/[Hibernate 7.0.0.Alpha1]]
@@ -57,57 +57,68 @@ footnote:[https://in.relation.to/2024/11/13/orm-70-beta2/[Hibernate 7.0.0.Beta2]
 | 17+
 | ❌
 | 3.2
+| 1.0
 
 | 6.6 footnote:[https://in.relation.to/2024/08/08/orm-660/[Hibernate 6.6.0.Final]]
 | 11, 17 ou 21
 | ❌
 | 3.1
+| 1.0
 
 | 6.5 footnote:[https://in.relation.to/2024/04/25/orm-650/[Hibernate 6.5.0.Final]]
 | 11, 17 ou 21
 | ❌
 | 3.1
+| ❌
 
 | 6.4
 | 11, 17 ou 21
 | ❌
 | 3.1
+| ❌
 
 | 6.3
 | 11, 17 ou 21
 | ❌
 | 3.1
+| ❌
 
 | 6.2
 | 11, 17, 20 ou 21
 | ❌
 | 3.1
+| ❌
 
 | 6.1
 | 11, 17 ou 18
 | ❌
 | 3.1 and 3.0
+| ❌
 
 | 6.0
 | 11, 17 ou 18
 | ❌
 | 3.0
+| ❌
 
 | 5.6
 | 8, 11, 17 ou 18
 | 2.2
 | 3.0 +
 (Maven : https://search.maven.org/artifact/org.hibernate/hibernate-core-jakarta[hibernate-core-jakarta])
+| ❌
 
 | 5.5
 | 8, 11 ou 17
 | 2.2
 | 3.0 +
 (Maven : https://search.maven.org/artifact/org.hibernate/hibernate-core-jakarta[hibernate-core-jakarta])
+| ❌
 
 | 5.4
 | 8, 11 ou 17 (avec 5.4.32+)
 | 2.2
+| ❌
 | ❌
 
 | 5.3
@@ -117,10 +128,12 @@ footnote:[https://in.relation.to/2024/11/13/orm-70-beta2/[Hibernate 7.0.0.Beta2]
 17 -> 5.3.22+ footnote:[Support de JDK 17 introduit par https://github.com/raphw/byte-buddy/blob/master/release-notes.md#21-february-2021-version-11021[ByteBuddy 1.10.21] (voir https://github.com/hibernate/hibernate-orm/commit/e61eff291320f83af6552eec7cf3a7bb7ddd9f59[commit pour HHH-14463], https://github.com/hibernate/hibernate-orm/commit/4fb18e27e3cecae458f12236dbe21b6761c2d7bf[commit] pour https://hibernate.atlassian.net/browse/HHH-14771[HHH-14771])]
 | 2.2
 | ❌
+| ❌
 
 | 5.2
 | 8
 | 2.1
+| ❌
 | ❌
 
 | 5.1
@@ -129,35 +142,42 @@ footnote:[https://in.relation.to/2024/11/13/orm-70-beta2/[Hibernate 7.0.0.Beta2]
  8 pour 5.1.17
 | 2.1
 | ❌
+| ❌
 
 | 5.0
 | 6, 7 ou 8
 | 2.1
+| ❌
 | ❌
 
 | 4.3
 | 6+
 | 2.1
 | ❌
+| ❌
 
 | 4.2
 | 6+
 | 2.0
+| ❌
 | ❌
 
 | 3.6
 | 1.5+
 | 2.0
 | ❌
+| ❌
 
 | 3.5
 | 1.4+
 | 2.0
 | ❌
+| ❌
 
 | 3.2
 | 1.4+
 | 1.0
+| ❌
 | ❌
 |===
 
@@ -168,6 +188,7 @@ Références :
 - http://in.relation.to/2018/09/13/using-hibernate-orm-with-jdk11/[Using Hibernate ORM with JDK 11] : Hibernate ORM 5.3+
 - https://in.relation.to/2021/09/14/ready-for-jdk17/[Hibernate: all systems go for Java 17]
 - https://jakarta.ee/specifications/persistence/[Jakarta Persistence]
+- https://jakarta.ee/specifications/data/[Jakarta Data]
 
 == Matrice compatibilité Spring
 
