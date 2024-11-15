@@ -296,3 +296,4 @@ Par exemple :
 * link:https://docs.openrewrite.org/recipes/java/spring/framework/upgradespringframework_5_1[Migrate to Spring Framework 5.1]
 * link:https://docs.openrewrite.org/recipes/java/spring/framework/upgradespringframework_5_2[Migrate to Spring Framework 5.2]
 * link:https://docs.openrewrite.org/recipes/java/spring/framework/upgradespringframework_5_3[Migrate to Spring Framework 5.3]
+* link:https://docs.openrewrite.org/recipes/java/spring/framework/upgradespringframework_6_0[Migrate to Spring Framework 6.0]
