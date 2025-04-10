@@ -299,7 +299,7 @@ _Notes 10, 7_
 ** Javadoc dans https://github.com/spring-projects/spring-framework/commit/ba65cef52bbb28e8286faf6d36b5a7ed2b253fa5#diff-236ca7afd9b7f26eacc5c5119d5c0e02b567da3d9d0ea2981c959f656b03f485
 ** issue https://github.com/spring-projects/spring-framework/issues/25533
 ** doc : https://docs.spring.io/spring-framework/docs/5.3.x/reference/html/data-access.html#orm-hibernate
-* _Note 10_ : Javadoc dans https://github.com/spring-projects/spring-framework/blob/6.0.x/spring-orm/src/main/java/org/springframework/orm/hibernate5/LocalSessionFactoryBean.java
+* _Note 10_ : Javadoc dans https://github.com/spring-projects/spring-framework/blob/6.0.x/spring-orm/src/main/java/org/springframework/orm/hibernate5/LocalSessionFactoryBean.java (Hibernate ORM 6.x is officially only supported as a JPA provider)
 
 ==== Persistance avec Hibernate
 
