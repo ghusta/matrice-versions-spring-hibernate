@@ -10,7 +10,8 @@
 | Spring Framework | Hibernate | Java | Tomcat
 
 | 7.0
-| 7.0
+| 7.1
+footnote:[https://github.com/spring-projects/spring-framework/issues/35308[Upgrade to Hibernate ORM 7.1]]
 | 17
 | 11
 
