@@ -51,6 +51,12 @@
 |===
 | Hibernate ORM | Java | JPA | Jakarta Persistence | Jakarta Data
 
+| 7.1
+| 17+
+| ❌
+| 3.2
+| 1.0
+
 | 7.0
 footnote:[https://in.relation.to/2024/04/16/orm-70alpha1/[Hibernate 7.0.0.Alpha1]]
 footnote:[https://in.relation.to/2024/11/13/orm-70-beta2/[Hibernate 7.0.0.Beta2]]
